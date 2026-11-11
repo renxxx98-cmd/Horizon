@@ -8,8 +8,7 @@
     "max_tokens": 8192,
     "throttle_sec": 1,
     "languages": [
-      "zh",
-      "en"
+      "zh"
     ],
     "analysis_concurrency": 5,
     "enrichment_concurrency": 5
@@ -19,15 +18,15 @@
     "default_profile": "tech-news",
     "profile_settings": {
       "tech-news": {
-        "threshold": 7.0,
+        "threshold": 0.0,
         "topic_dedup": true
       },
       "tech-blog": {
-        "threshold": 4.0,
+        "threshold": 0.0,
         "topic_dedup": false
       },
       "finance-news": {
-        "threshold": 7.0,
+        "threshold": 0.0,
         "topic_dedup": true
       }
     }
